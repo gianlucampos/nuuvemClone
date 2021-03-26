@@ -1,10 +1,5 @@
-.navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .logoContainer {
+  cursor: pointer;
   display: flex;
 }
 
@@ -44,7 +39,7 @@
   background-color: inherit;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
+a:hover, .dropdown:hover .dropbtn {
   border-top: 3px solid #f0f1f3;
 }
 

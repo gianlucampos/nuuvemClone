@@ -14,8 +14,12 @@
 }
 
 header {
-  background: var(--blue);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 20px;
+  
+  background: var(--blue);
   color: var(--white);
 
   border-bottom:1px solid #1d2631;
@@ -27,11 +31,11 @@ body {
   color: var(--text);
 }
 
-header, body, input, textarea, button {
+header, body, input, textarea, button, i {
   font: 400 1rem "Open Sans", arial,helvetica;
 }
 
-button{
+button, a {
   cursor: pointer;
 }
 
