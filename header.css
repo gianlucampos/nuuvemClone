@@ -1,6 +1,7 @@
 .logoContainer {
   cursor: pointer;
   display: flex;
+  padding: 20px;
 }
 
 .logoContainer > img {
@@ -20,7 +21,28 @@
   color: var(--title);
 }
 
-.containerDropdown {
+.containerTabs {
+  display: flex;
+  margin-left: 1rem;
+  justify-content: center;
+  
+  flex: 0.85;
+  height: auto;
+  width: 70%;
+
+  background-color: green;
+}
+
+.containerTabs div {    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 160px;
+  background-color: red;
+}
+
+.containerDropdown, nav {
   display: flex;
 }
 
