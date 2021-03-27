@@ -44,6 +44,11 @@
   border-top: 3px solid #f0f1f3;
 }
 
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
 .dropbtn {
   border: none;
   color: white;
@@ -72,6 +77,6 @@
   background-color: #ddd;
 }
 
-div:hover .dropdownContent {
+.dropdown:hover .dropdownContent {
   display: block;
 }
