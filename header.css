@@ -31,7 +31,7 @@
   width: 70%;
 }
 
-.containerTabs div {    
+.containerTabs > div {    
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,24 +40,11 @@
   width: 160px;
 }
 
-.containerDropdown {
-  display: flex;
-}
-
-.containerDropdown a {  
-  margin-right: 1rem;
-  color: var(--white);
-}
-
 .containerTabs > div:hover {
   border-top: 3px solid #f0f1f3;
 }
 
-.dropdown {
-  float: left;
-}
-
-.dropdown .dropbtn {
+.dropbtn {
   border: none;
   color: white;
   background-color: inherit;
@@ -85,6 +72,6 @@
   background-color: #ddd;
 }
 
-.dropdown:hover .dropdownContent {
+div:hover .dropdownContent {
   display: block;
 }
