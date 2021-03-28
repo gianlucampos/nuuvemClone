@@ -22,7 +22,6 @@
   color: var(--title);
 }
 
-
 #main-nav {
   position: relative;
   left: 20%;
@@ -44,7 +43,7 @@
 
 #main-nav ul {
   list-style: none;
-  display: flex;
+  display: flex;  
 }
 
 #main-nav li {
@@ -60,6 +59,9 @@
 .submenu li {
   display: none;
   position: absolute;
+
+  color: var(--gray);
+  background-color:#f9f9f9;
 }
 
 .submenu {
@@ -75,6 +77,8 @@
 
 .submenu li:hover {
   display: block;
+  background-color: #ddd;
+  color: #09c;
 }
 
 .arrow {
