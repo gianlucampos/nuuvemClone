@@ -22,14 +22,14 @@
   color: var(--title);
 }
 
-#main-nav {
+.mainNav {
   position: relative;
   left: 20%;
   width: 50%;  
   height: 100%;
 }
 
-#main-nav a {
+.mainNav a {
   display: flex;
   height: 64px;
 
@@ -37,21 +37,21 @@
   justify-content: center; 
 }
 
-#main-nav a:hover {
+.mainNav a:hover {
   border-top: 3px solid #f0f1f3;
 }
 
-#main-nav ul {
+.mainNav ul {
   list-style: none;
   display: flex;  
 }
 
-#main-nav li {
+.mainNav li {
   width: 100%;
   position: relative;
 }
 
-#main-nav li:hover .submenu > li {
+.mainNav li:hover .submenu > li {
   display: block;
   flex-direction: column;
 }
